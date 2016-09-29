@@ -43,7 +43,7 @@ export default class Player extends MapObject  {
 
     this._email = null;
 
-    this.username = "unknown";
+    this.username = null;
 
     this.email_verified = false;
 
