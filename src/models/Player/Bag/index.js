@@ -13,35 +13,35 @@ export default class Bag {
 
     this.player = player;
 
-    this.poke_ball = 0;
+    this.poke_ball = 50;
     this.great_ball = 0;
     this.ultra_ball = 0;
     this.master_ball = 0;
 
-    this.potion = 0;
+    this.potion = 20;
     this.super_potion = 0;
     this.hyper_potion = 0;
     this.max_potion = 0;
 
-    this.revive = 0;
+    this.revive = 10;
     this.max_revive = 0;
 
-    this.lucky_egg = 0;
-    this.troy_disk = 0;
+    this.lucky_egg = 1;
+    this.troy_disk = 1;
 
-    this.incense_ordinary = 0;
+    this.incense_ordinary = 1;
     this.incense_spicy = 0;
     this.incense_cool = 0;
     this.incense_floral = 0;
 
-    this.razz_berry = 0;
+    this.razz_berry = 20;
     this.bluk_berry = 0;
     this.nanab_berry = 0;
     this.wepar_berry = 0;
     this.pinap_berry = 0;
 
     this.incubator_basic = 0;
-    this.incubator_basic_unlimited = 0;
+    this.incubator_basic_unlimited = 1;
 
     this.pokemon_storage_upgrade = 0;
     this.storage_upgrade = 0;
