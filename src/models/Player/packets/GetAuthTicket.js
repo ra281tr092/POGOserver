@@ -8,7 +8,7 @@ export default function GetAuthTicket(id) {
     api_url: "pgorelease.nianticlabs.com/custom",
     auth_ticket: {
       start: new Buffer(""),
-      expire_timestamp_ms: 9999999999999,
+      expire_timestamp_ms: ((new Date).getTime() + (1000 * 60 * 30)),
       end: new Buffer("")
     }
   });
